@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+
+.lokasi-main {
+    width: 100%;
+    height: 3660px;
+    background-color: black;
+}
+
+.lokasi-main img {
+    position: absolute;
+    width: 100%;
+}
+
+.lokasi-main h1 {
+    position: absolute;
+    width: 771px;
+    height: 173px;
+    left: 310px;
+    top: 397px;
+    font-family: "Abril Fatface";
+    font-weight: 400;
+    font-size: 128px;
+    color: white;
+}
+
+/* .lokasi-content{
+    position: absolute;
+} */
+.lokasi-content h1 {
+    position: absolute;
+    width: 649px;
+    height: 86px;
+    /* left: 407px; */
+    text-align: center;
+    top: 1138px;
+    font-family: "Abril Fatface";
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.lokasi-content p {
+    position: absolute;
+    font-family: "Abril Fatface";
+    font-weight: 400;
+    font-size: 50px;
+    color: #919b3e;
+    margin-top: 1236px;
+    text-align: center;
+    margin-left: 570px;
+}
+
+.card {
+    top: 1384px;
+    display: block;
+    flex-direction: column;
+    /* display: inline-block; */
+    /* margin-left: 60px;    */
+}
+
+.card h3 {
+    position: absolute;
+    z-index: 100;
+}
+
+.card .atas {
+    display: flex;
+    width: 95vw;
+    height: 500px;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.pict-box {
+    width: 313px;
+    height: 450px;
+}
+
+.card .atas img,
+.card .bawah img {
+    width: 313px;
+    height: 450px;
+}
+
+.card .bawah {
+    display: flex;
+    width: 95vw;
+    height: 500px;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.pict-box h3 {
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    align-items: baseline;
+    font-family: "Abril Fatface";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 32px;
+}
+
+.pict-box h5 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 351px;
+    margin-left: 32px;
+    color: #ffffff;
+}
+
+.content3 {
+    height: 829px;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(43, 88, 118, 0.63) 0%, rgba(67, 118, 81, 0.63) 100%);
+    top: 2509px;
+}
+
+.content3 h2 {
+    position: absolute;
+    width: 70%;
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 96px;
+    color: white;
+    left: 71px;
+    top: 133px;
+}
+
+.content3 p {
+    position: absolute;
+    width: 488px;
+    left: 71px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #D9E28A;
+    top: 513px;
+    border-top: solid 1px white;
+    padding-top: 2%;
+}
+
+/* .carousel {
+    position: absolute;
+    height: 340px;
+    width: 80vw;
+    top: 340px;
+    left: 590px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+} */
+
+.carousel {
+    position: absolute;
+    height: 340px;
+    width: 45vw;
+    top: 340px;
+    left: 590px;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+}
+
+.carousel img {
+    width: calc(100%/3);
+    white-space: inherit;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 20PX;
+}
+
+.footer {
+    height: 340px;
+    background: #1B211B;
+    position: absolute;
+    top: 3333px;
+}
+
+.content-footer img {
+    position: absolute;
+    width: 25vw;
+}
+
+.col2 {
+    margin-left: 35vw;
+    margin-top: 100px;
+}
+
+.col2 a {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.col3 {
+    position: absolute;
+    margin-left: 75vw;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+/* .carousel {
+    position: absolute;
+    height: 340px;
+    width: 80vw;
+    top: 340px;
+    left: 590px;
+}
+
+.carousel img {
+    width: auto;
+    white-space: inherit;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 20px;
+    
+} */
