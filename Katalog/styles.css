@@ -1,10 +1,130 @@
-body {     
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+
+body {
+    font-family: "Open Sans", sans-serif;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000000;
 }
 
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.a {
+    color: whitesmoke;
+    text-decoration: solid;
+}
+
+#header div {
+    border-bottom: thin solid white;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    width: 100%;
+}
+
+#header .logo {
+    margin: 0;
+    padding: 5px 5px;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 10;
+}
+
+#header li {
+    float: left;
+}
+
+#header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#header li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#header li a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+    font-weight: 400;
+}
+
+.logo img:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+}
+
+#header li.dropdown {
+    display: inline-block;
+}
+
+#header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#header .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#header .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+#header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media only screen and (max-width:500px) {
+
+    #header,
+    .img {
+        width: 100%;
+    }
+
+    #header ul {
+        font-size: xx-small;
+    }
+}
 img {
     width: 100%;
 }
@@ -108,6 +228,29 @@ a {
     display: block;
 }
 
+.judul {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.judul .gambar {
+  width: 100%;
+  height: auto;
+}
+
+.judul .title-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 2;
+}
 .search-bar {
     display: flex;
     align-items: center;
@@ -117,10 +260,28 @@ a {
   } 
 
   .search-bar .search-container{
+    display: flex;
     background-color: #1B211B;
     padding: .5em 1em;
     border-radius: 10px;
 
+  }
+  
+  .judul {  
+    color: #ccc;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .search-bar .search-container .search{
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+  }
+  .search-bar .search-container .filter-container {
+    padding-right: 10px;
+    border-right: 2px solid #ccc;
   }
 
   .search-bar select {
@@ -204,7 +365,21 @@ a {
 
   .card .text {
     padding-top: 0px;
-    flex-wrap: wrap;
+  }
+
+  .card .text .simbol{
+    height: 40px;
+    width: 40px;
+    display: inline;
+    justify-content: center;
+
+  }
+
+  .card .text .simbol img{
+    height: 25px;
+    width: 25px;  
+    border-radius: 0px;
+    object-fit: cover;
   }
 
   .card p {
@@ -216,6 +391,7 @@ a {
     padding-top: .5em;
     font-size: medium; 
     font-weight: bold;
+    color: #424D1F;
   }
 
   .card .desc .deskripsi {
@@ -314,3 +490,16 @@ a {
     
   }
 
+  .card h3 {
+    font-weight: bold;
+  }
+
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 50px;
+}
