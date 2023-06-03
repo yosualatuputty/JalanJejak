@@ -88,10 +88,10 @@ const catalogItems = [
           <h3>${item.name}</h3>
           <h6><i>${item.nomenclature}<i></h6>
           <div class="text">
-          <p><div class="simbol"><img src="simbol/${item.kelangkaan}.png"></div>${item.kelangkaan}</p>
-          <p><div class="simbol"><img src="simbol/${item.taksonomi}.png"></div>${item.taksonomi}</p>
-          <p><div class="simbol"><img src="simbol/${item.bahaya}.png"></div>${item.bahaya}</p>
-          <p><div class="simbol"><img src="simbol/${item.kegunaan}.png"></div>${item.kegunaan}</p>
+          <p><div class="simbol"><img src="simbol/${item.kelangkaan}.svg"></div>${item.kelangkaan}</p>
+          <p><div class="simbol"><img src="simbol/${item.taksonomi}.svg"></div>${item.taksonomi}</p>
+          <p><div class="simbol"><img src="simbol/${item.bahaya}.svg"></div>${item.bahaya}</p>
+          <p><div class="simbol"><img src="simbol/${item.kegunaan}.svg"></div>${item.kegunaan}</p>
           </div>
           <div class="desc">
           <p class="deskripsi">${item.deskripsi}</p>
