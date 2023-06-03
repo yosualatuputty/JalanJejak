@@ -245,6 +245,7 @@ a {
   font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
+  word-spacing: 10px;
 }
 
 
@@ -300,6 +301,8 @@ a {
 
 .search-bar .search-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #1B211B;
   padding: .5em 1em;
   border-radius: 10px;
